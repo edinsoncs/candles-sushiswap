@@ -1,0 +1,40 @@
+{
+    "name": "sushiswapcandles",
+    "version": "0.0.2",
+    "type": "module",
+    "source": "src/index.js",
+    "main": "dist/index.js",
+    "module": "dist/index.module.js",
+    "author": "EdinsonCS",
+    "license": "MIT",
+    "unpkg": "dist/index.umd.js",
+    "keywords": [
+        "crypto",
+        "candles crypto",
+        "sushiswap candles",
+        "tradingview candles",
+        "coins price",
+        "crypto prices",
+        "binance api free",
+        "api coinmarketcap free",
+        "tokens price",
+        "pairs coins price",
+        "uniswap",
+        "pancakeswap"
+    ],
+    "scripts": {
+        "build": "microbundle",
+        "dev": "microbundle watch"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "microbundle": "^0.15.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/edinsoncs/candles-sushiswap"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.2"
+    }
+}

@@ -1,0 +1,2 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(exports,require("node-fetch")):"function"==typeof define&&define.amd?define(["exports","node-fetch"],n):n((e||self).sushiswapcandles={},e.nodeFetch)}(this,function(e,n){function t(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var o=/*#__PURE__*/t(n);getBinanceDefault(),e.getSushiCandles=function(e,n,t){return o.default("https://www.dexi.tools/candles/sushi/"+e+"/"+n+"?frame="+t).then(function(e){return e.json()}).then(function(e){return e})}});
+//# sourceMappingURL=index.umd.js.map
